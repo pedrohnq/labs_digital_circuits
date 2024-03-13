@@ -1,0 +1,13 @@
+entity gates is
+    port(
+        a, b, c :  in bit;
+        s1, s2, s3, s4, s5, s6, s7, s8  :     out bit
+    );
+end entity gates;
+
+architecture main of gates is
+
+begin
+    -- And test
+    s1 <= a and b;
+end architecture main;

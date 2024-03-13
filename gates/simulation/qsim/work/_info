@@ -1,0 +1,81 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\Users\Pedro Henrique\Documents\Faculdade\CD\Prática\gates\simulation\qsim
+vgates
+Z1 IaFA4Q]dB2@fPl]YzOZEUW0
+Z2 V;95GQF]8EK2d:?4Oz_NT40
+Z3 dC:\Users\Pedro Henrique\Documents\Faculdade\CD\Prática\gates\simulation\qsim
+Z4 w1710300849
+Z5 8gates.vo
+Z6 Fgates.vo
+L0 31
+Z7 OV;L;10.1d;51
+r1
+31
+Z8 !s90 -work|work|gates.vo|
+Z9 o-work work -O0
+!i10b 1
+Z10 !s100 eV6j@1M6IdcdW6S67WQ=h3
+!s85 0
+Z11 !s108 1710300850.536000
+Z12 !s107 gates.vo|
+!s101 -O0
+vgates_vlg_check_tst
+!i10b 1
+!s100 LGj2fZWldh8n1@Q6Z:IhM2
+I<B`Y0E4M9^6e4GGb?8cMh1
+Vk^82<H<P:HeF<l;oCM0LS1
+R3
+Z13 w1710300848
+Z14 8gates.vt
+Z15 Fgates.vt
+L0 61
+R7
+r1
+!s85 0
+31
+Z16 !s108 1710300850.647000
+Z17 !s107 gates.vt|
+Z18 !s90 -work|work|gates.vt|
+!s101 -O0
+R9
+vgates_vlg_sample_tst
+!i10b 1
+Z19 !s100 :kd:0_B8XPSShF;Z^^?KN3
+Z20 IYI2i[`Q2n><Y`i>C7Ed3T1
+Z21 Ve6eDf::Y5<0zHn;Yn?RMA3
+R3
+R13
+R14
+R15
+L0 29
+R7
+r1
+!s85 0
+31
+R16
+R17
+R18
+!s101 -O0
+R9
+vgates_vlg_vec_tst
+!i10b 1
+!s100 fPZ]b8n;Qf1m?Oebj>19W1
+I@=;EG?>C=znO][OI=c3`10
+Z22 VSGi@DH;lT9:LzeSZCWEia2
+R3
+R13
+R14
+R15
+L0 322
+R7
+r1
+!s85 0
+31
+R16
+R17
+R18
+!s101 -O0
+R9
