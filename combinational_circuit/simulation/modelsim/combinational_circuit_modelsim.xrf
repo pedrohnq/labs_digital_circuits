@@ -1,0 +1,16 @@
+vendor_name = ModelSim
+source_file = 1, C:/Users/Pedro Henrique/Documents/Faculdade/CD/Prática/combinational_circuit/Or3In.vhd
+source_file = 1, C:/Users/Pedro Henrique/Documents/Faculdade/CD/Prática/combinational_circuit/And2In.vhd
+source_file = 1, C:/Users/Pedro Henrique/Documents/Faculdade/CD/Prática/combinational_circuit/combinational_circuit.vhd
+source_file = 1, C:/Users/Pedro Henrique/Documents/Faculdade/CD/Prática/combinational_circuit/s1.vwf
+source_file = 1, C:/Users/Pedro Henrique/Documents/Faculdade/CD/Prática/combinational_circuit/db/combinational_circuit.cbx.xml
+source_file = 1, c:/altera/13.0sp1/quartus/libraries/vhdl/ieee/prmtvs_b.vhd
+source_file = 1, c:/altera/13.0sp1/quartus/libraries/vhdl/ieee/prmtvs_p.vhd
+source_file = 1, c:/altera/13.0sp1/quartus/libraries/vhdl/ieee/timing_b.vhd
+source_file = 1, c:/altera/13.0sp1/quartus/libraries/vhdl/ieee/timing_p.vhd
+design_name = combinational_circuit
+instance = comp, \b~I , b, combinational_circuit, 1
+instance = comp, \c~I , c, combinational_circuit, 1
+instance = comp, \a~I , a, combinational_circuit, 1
+instance = comp, \u4|or_out~0 , u4|or_out~0, combinational_circuit, 1
+instance = comp, \s1~I , s1, combinational_circuit, 1

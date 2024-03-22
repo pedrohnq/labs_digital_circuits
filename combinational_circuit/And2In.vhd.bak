@@ -1,0 +1,13 @@
+entity And2In is
+	port(
+		entry1, entry2: in bit;
+		and_out: out bit
+	);
+end And2In;
+
+
+architecture behav of And2In is
+
+begin
+	and_out <= entry1 and entry2;
+end architecture behav;

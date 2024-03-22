@@ -1,0 +1,35 @@
+|combinational_circuit
+a => And2In:u1.and_in_1
+a => And2In:u3.and_in_1
+b => And2In:u1.and_in_2
+b => And2In:u2.and_in_1
+c => And2In:u2.and_in_2
+c => And2In:u3.and_in_2
+s1 <= Or3In:u4.or_out
+
+
+|combinational_circuit|And2In:u1
+and_in_1 => and_out.IN0
+and_in_2 => and_out.IN1
+and_out <= and_out.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|combinational_circuit|And2In:u2
+and_in_1 => and_out.IN0
+and_in_2 => and_out.IN1
+and_out <= and_out.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|combinational_circuit|And2In:u3
+and_in_1 => and_out.IN0
+and_in_2 => and_out.IN1
+and_out <= and_out.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|combinational_circuit|Or3In:u4
+or_in_1 => or_out.IN0
+or_in_2 => or_out.IN1
+or_in_3 => or_out.IN1
+or_out <= or_out.DB_MAX_OUTPUT_PORT_TYPE
+
+

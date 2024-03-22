@@ -1,0 +1,144 @@
+$comment
+	File created using the following command:
+		vcd file combinational_circuit.msim.vcd -direction
+$end
+$date
+	Thu Mar 21 22:29:54 2024
+$end
+$version
+	ModelSim Version 10.1d
+$end
+$timescale
+	1ps
+$end
+$scope module combinational_circuit_vlg_vec_tst $end
+$var reg 1 ! a $end
+$var reg 1 " b $end
+$var reg 1 # c $end
+$var wire 1 $ s1 $end
+$var wire 1 % sampler $end
+$scope module i1 $end
+$var wire 1 & gnd $end
+$var wire 1 ' vcc $end
+$var wire 1 ( unknown $end
+$var tri1 1 ) devclrn $end
+$var tri1 1 * devpor $end
+$var tri1 1 + devoe $end
+$var wire 1 , b~combout $end
+$var wire 1 - c~combout $end
+$var wire 1 . a~combout $end
+$var wire 1 / u4|or_out~0_combout $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+0!
+0"
+0#
+0$
+x%
+0&
+1'
+x(
+1)
+1*
+1+
+0,
+0-
+0.
+0/
+$end
+#60000
+1!
+1.
+0%
+#80000
+0!
+0.
+1%
+#100000
+1"
+1,
+0%
+#120000
+0"
+0,
+1%
+#140000
+1#
+1-
+0%
+#160000
+0#
+0-
+1%
+#220000
+1!
+1"
+1.
+1,
+0%
+1/
+1$
+#240000
+0!
+0"
+0.
+0,
+1%
+0/
+0$
+#280000
+1#
+1!
+1-
+1.
+0%
+1/
+1$
+#300000
+0#
+0!
+0-
+0.
+1%
+0/
+0$
+#320000
+1"
+1#
+1,
+1-
+0%
+1/
+1$
+#340000
+0"
+0#
+0,
+0-
+1%
+0/
+0$
+#380000
+1!
+1"
+1#
+1.
+1,
+1-
+0%
+1/
+1$
+#400000
+0!
+0"
+0#
+0.
+0,
+0-
+1%
+0/
+0$
+#1000000
